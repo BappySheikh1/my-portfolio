@@ -1,7 +1,8 @@
 import "./About.css";
-import Me from "../../assets/me.png";
-import { FaAward, FaUsers } from "react-icons/fa";
-import { VscFolderLibrary } from "react-icons/vsc";
+import Me from "../../assets/IMG_20230217_094356.jpg";
+import { FaReact, } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -20,30 +21,32 @@ const About = () => {
           <div className="about_content">
             <div className="about_cards">
               <article className="about_card">
-                <FaAward className="about_icon" />
-                <h5>Experience</h5>
-                <small>1+ Years Learning</small>
+                <FaReact className="about_icon" />
+                <h5>Frontend</h5>
+                <small>15+ Projects</small>
               </article>
               {/* 2 */}
               <article className="about_card">
-                <FaUsers className="about_icon" />
-                <h5>Client</h5>
-                <small>200+ Worldwide</small>
+                <SiMongodb className="about_icon" />
+                <h5>Fullstack</h5>
+                <small>10+ Project</small>
               </article>
               {/* 3 */}
               <article className="about_card">
-                <VscFolderLibrary className="about_icon" />
-                <h5>Projects</h5>
-                <small>80+ Completed</small>
+                <BsGithub className="about_icon" />
+                <h5>Github</h5>
+                <small>80+ projects</small>
               </article>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              illum doloribus optio totam? Aspernatur eius iure reprehenderit!
-              Amet, blanditiis assumenda?
+              Web developer, with extensive knowledge and more than 1 years of
+              experience, working in web technologies and delivering quality
+              work.
             </p>
 
-            <a href="#contact" className="btn btn-primary">Let`s Talk</a>
+            <a href="#contact" className="btn btn-primary">
+              Let`s Talk
+            </a>
           </div>
         </div>
       </section>
